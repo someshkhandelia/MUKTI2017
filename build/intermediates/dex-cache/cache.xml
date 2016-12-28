@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_c6b99743413dfd3bc74ee80ec42560761c958038.jar" />
+    </item>
+    <item
+        jar="C:\Users\somesh1995\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_f4637387d8589c8dbfe1d75d3576ab11299c0374.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_c3ef1758279fc999359bc95369ce6aadc9126ea7.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_458b8d43986779698d481ad8a2f44fc497c0a60f.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_3811aec6ea56292918219475a4e8f898d30e3324.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_038c4dde25b4463634658b86993cab70fb4eccbb.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_443f7211137d56b7bc3684cdc419c500fd673622.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_3e575c298a70a4129e3a9ecfdd576a04039f1564.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_c4333afe9ea3e3a84b7737a0905c13fb04dd322d.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_82f9d1a7e98737664d31501cc47758717b61207e.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_ed9220b966eb98cb30ca8bd63c100f390a750e96.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1169157f741ba4be05d6b3542860806c53e2d890.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_30d4672825c89bd0e3fbe685497a8dd3e0438a62.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_e9b9caed35795c698bd10278985ceb5139f0c9fb.jar" />
+    </item>
+    <item
+        jar="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_6b499cd183ea12b6fe5c81ad4bab7292bdeb4aed.jar" />
+    </item>
+
+</items>

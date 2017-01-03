@@ -52,12 +52,12 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\layout\\fragment_card7_back.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home6.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\layout\\fragment_home6.xml"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home2.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\layout\\fragment_home2.xml"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home6.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\layout\\fragment_home6.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_online_events.xml",

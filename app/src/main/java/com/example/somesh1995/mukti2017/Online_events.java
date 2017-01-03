@@ -39,7 +39,7 @@ public class Online_events extends Activity
     LinearLayout f3;
     LinearLayout f4;
 
-    Button b1;
+   // Button b1;
 
 
     /**
@@ -56,14 +56,14 @@ public class Online_events extends Activity
         setContentView(R.layout.activity_online_events);
 
 
-        b1=(Button)findViewById(R.id.button1);
+      /*  b1=(Button)findViewById(R.id.button1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(),Hackathon.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         if (savedInstanceState == null) {
             // If there is no saved instance state, add a fragment representing the

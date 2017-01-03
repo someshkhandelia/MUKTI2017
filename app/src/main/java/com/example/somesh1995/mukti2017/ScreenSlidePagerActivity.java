@@ -14,11 +14,11 @@ import android.view.View;
 public class ScreenSlidePagerActivity extends FragmentActivity {
 
     private static final int NUM_PAGES = 6;
-
-
     private ViewPager mPager;
-
     private PagerAdapter mPagerAdapter;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,30 +4,118 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="292717210659310"
+    timestamp="84516000799676"
     token="-3659400167624607996" >
 
     <task
         name="javac"
-        duration="4587" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="439" />
+        duration="0" />
     <task
         name="verifier"
-        duration="226" />
+        duration="0" />
 
     <artifact
-        location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="292717210659310" >
+    <build timestamp="82826291744603" >
         <artifact
             location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="84245581529785" >
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1169157f741ba4be05d6b3542860806c53e2d890\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_c3ef1758279fc999359bc95369ce6aadc9126ea7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_82f9d1a7e98737664d31501cc47758717b61207e\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_e9b9caed35795c698bd10278985ceb5139f0c9fb\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ed9220b966eb98cb30ca8bd63c100f390a750e96\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_038c4dde25b4463634658b86993cab70fb4eccbb\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c6b99743413dfd3bc74ee80ec42560761c958038\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_458b8d43986779698d481ad8a2f44fc497c0a60f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fc7533ae3183361f198058d6445160cb5158475f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cf09b416f4b5283bd927bd496a5953d7c98428fa\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_3811aec6ea56292918219475a4e8f898d30e3324\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_3e575c298a70a4129e3a9ecfdd576a04039f1564\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c4333afe9ea3e3a84b7737a0905c13fb04dd322d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_443f7211137d56b7bc3684cdc419c500fd673622\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_f4637387d8589c8dbfe1d75d3576ab11299c0374\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_30d4672825c89bd0e3fbe685497a8dd3e0438a62\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6b499cd183ea12b6fe5c81ad4bab7292bdeb4aed\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="84516000799676" >
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

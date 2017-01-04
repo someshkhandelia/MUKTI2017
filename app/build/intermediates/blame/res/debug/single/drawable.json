@@ -176,12 +176,12 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conn.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\conn.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -240,16 +240,16 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\off3.jpg",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\off3.jpg"
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fx.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\fx.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wizard5.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\wizard5.jpg"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fx.jpg",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\fx.jpg"
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\off3.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\src\\main\\res\\drawable\\off3.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inc.jpg",

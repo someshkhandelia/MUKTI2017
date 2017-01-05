@@ -30,6 +30,8 @@
         <activity android:name="com.example.somesh1995.mukti2017_2.Online_events" />
         <activity android:name="com.example.somesh1995.mukti2017_2.Workshops" />
         <activity android:name="com.example.somesh1995.mukti2017_2.Offline_events" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Hackathon" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Sponsors" />
     </application>
 
 </manifest>

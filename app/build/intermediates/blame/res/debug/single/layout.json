@@ -184,6 +184,10 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sponsors.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\activity_sponsors.xml"
+    },
+    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline_events.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\activity_offline_events.xml"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hackathon.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\activity_hackathon.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",

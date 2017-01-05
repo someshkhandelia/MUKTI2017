@@ -31,8 +31,8 @@ public class Home4 extends Fragment {
         hackathon_image_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Intent intent = new Intent(getActivity(),Hackathon.class);
-                //startActivity(intent);
+                Intent intent = new Intent(getActivity(),Hackathon.class);
+                startActivity(intent);
             }
         });
 

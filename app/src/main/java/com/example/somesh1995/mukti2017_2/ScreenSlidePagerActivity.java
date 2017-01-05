@@ -116,16 +116,16 @@ public class ScreenSlidePagerActivity extends FragmentActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_manage) {
-           // Intent intent= new Intent(this,Hackathon.class);
-           // startActivity(intent);
+            Intent intent= new Intent(this,Hackathon.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
             Intent intent= new Intent(this,Contacts.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {
-           // Intent intent= new Intent(this,Sponsors.class);
-           // startActivity(intent);
+            Intent intent= new Intent(this,Sponsors.class);
+            startActivity(intent);
 
         }
 

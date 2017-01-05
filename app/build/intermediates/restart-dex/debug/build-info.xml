@@ -4,30 +4,53 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="238149748651454"
+    timestamp="250803958753804"
     token="-2117076935362502500" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="5097" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="2044" />
     <task
         name="verifier"
-        duration="0" />
+        duration="778" />
 
     <artifact
-        location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
-    <build timestamp="238149748651454" >
+    <build timestamp="250167804779755" >
         <artifact
             location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="250803958753804" >
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\my files\AndroidStudioProjects\MUKTI2017_2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

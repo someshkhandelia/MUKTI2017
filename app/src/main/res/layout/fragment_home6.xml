@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.somesh1995.mukti2017.Home6">
+    tools:context="com.example.somesh1995.mukti2017_2.Home6">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView

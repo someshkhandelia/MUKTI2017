@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.somesh1995.mukti2017"
+    package="com.example.somesh1995.mukti2017_2"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="21"
         android:targetSdkVersion="24" />
 
     <application
@@ -14,25 +14,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.somesh1995.mukti2017.MainActivity" >
+        <activity android:name="com.example.somesh1995.mukti2017_2.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.somesh1995.mukti2017.ScreenSlidePagerActivity" />
         <activity
-            android:name="com.example.somesh1995.mukti2017.FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name="com.example.somesh1995.mukti2017.Online_events" />
-        <activity android:name="com.example.somesh1995.mukti2017.Offline_events" />
-        <activity android:name="com.example.somesh1995.mukti2017.Workshops" />
-        <activity android:name="com.example.somesh1995.mukti2017.Hackathon" />
-        <activity android:name="com.example.somesh1995.mukti2017.Contacts" />
-        <activity android:name="com.example.somesh1995.mukti2017.Sponsors" />
+            android:name="com.example.somesh1995.mukti2017_2.ScreenSlidePagerActivity"
+            android:label="@string/title_activity_screen_slide_pager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Contacts" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Online_events" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Workshops" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Offline_events" />
     </application>
 
 </manifest>

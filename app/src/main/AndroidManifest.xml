@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.somesh1995.mukti2017">
+    package="com.example.somesh1995.mukti2017_2">
 
     <application
         android:allowBackup="true"
@@ -15,18 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScreenSlidePagerActivity" />
         <activity
-            android:name=".FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Online_events" />
-        <activity android:name=".Offline_events" />
-        <activity android:name=".Workshops" />
-        <activity android:name=".Hackathon" />
+            android:name=".ScreenSlidePagerActivity"
+            android:label="@string/title_activity_screen_slide_pager"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Contacts" />
-        <activity android:name=".Sponsors"></activity>
+        <activity android:name=".Online_events" />
+        <activity android:name=".Workshops" />
+        <activity android:name=".Offline_events" />
     </application>
 
 </manifest>

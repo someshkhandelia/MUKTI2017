@@ -1,16 +1,15 @@
 <resources>
-    <string name="app_name">MUKTI2017</string>
+    <string name="app_name">MUKTI2017_2</string>
+    <string name="title_activity_screen_slide_pager">ScreenSlidePagerActivity</string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Androidworkshopnotice">One of the most interesting fields in the IT industry today is Android App Development.\n It is in great demand in the market,and an android can be found in almost every pair of hands.\n Creation always makes the creator happy, no matter how trivial or grand it be. And more so, if others can utilise the creation too. Imagine creating an Android app all by yourself, launching it, and being able to use it, not just you, but everyone around you! Wouldn’t it be amazing?? We the GNU Linux Users’ Group would help you learn to create an Android App, right from scratch. Come join us with fully charged laptops. \n\n\nVenue: D.M.Sen Auditorium \nTime: 5.45pm-8pm(Tuesdays) \nContact: Somesh-9674642046</string>
     <string name="webdevworkshopnotice"><![CDATA[For the present generation, internet has become the second oxygen and surfing through various websites the new form of breathing!!\n Even you can make your own website! We, the GNU Linux Users’ Group would help you develop your own website, both front and back end, right from the basics. It would not only be exciting but would add a lot to your personal development (and CV too!).\n Come join us with fully charged laptops and no other prerequisites.\n\n\n Venue: D.M.Sen Auditorium  \nTime: 5.45pm-7.45pm(Thursdays)  \nContact: Bishakh-947469114  ]]></string>
     <string name="hackmeworkshopnotice"><![CDATA[A little bit of fuel can add a lot of flame to the fire. Similarly a little bit of innovation can add a lot of advancement to a technology.\n We, the GNU Linux Users’ Group are organising hackathon sessions to encourage budding minds to create something new. You’ll get to modify on a piece of code and craft your ideas into a working prototype in a single session.\n Come join us with fully charged laptops and a heart full of enthusiasm!\n\n\nVenue: D.M.Sen Auditorium \nTime: 2pm-6pm(Saturdays) \nContact: Adarsh-7076316399]]></string>
 
-    <string name="details_title_text">Cupcake ipsum dolor</string>
-    <string name="details_body_text">Sit amet chocolate cake sweet macaroon chupa chups. Bear claw carrot cake chocolate bar biscuit chocolate cookie. Chocolate sesame snaps candy canes bear claw dragée tootsie roll.</string>
+
 </resources>

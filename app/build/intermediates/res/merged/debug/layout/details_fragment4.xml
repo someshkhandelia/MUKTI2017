@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/heading_offline_events"
+        android:background="#000000"
+        android:alpha="0.3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Offline Events"
+            android:id="@+id/offline_events_text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id='@+id/image'
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/details_top_spacing"
+        android:scaleType="centerCrop"
+        android:transitionName="kittenImage"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/text_head"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_body"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout>

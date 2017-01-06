@@ -25,6 +25,11 @@
         <activity android:name=".Offline_events" />
         <activity android:name=".Hackathon" />
         <activity android:name=".Sponsors" />
+
     </application>
+
+
+
+
 
 </manifest>

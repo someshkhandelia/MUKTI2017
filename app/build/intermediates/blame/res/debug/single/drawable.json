@@ -100,12 +100,12 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\surya.jpg"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\workshop_icon.png",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\workshop_icon.png"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conn.jpg",

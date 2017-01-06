@@ -35,7 +35,7 @@ public class KittenGridAdapter2 extends RecyclerView.Adapter<KittenViewHolder2> 
 
     @Override
     public void onBindViewHolder(final KittenViewHolder2 viewHolder, final int position) {
-        switch (position % 4) {
+        switch (position % 5) {
             case 0:
                 viewHolder.image.setImageResource(R.drawable.cc);
                 viewHolder.preview_text.setText("Codecracker");
@@ -51,6 +51,10 @@ public class KittenGridAdapter2 extends RecyclerView.Adapter<KittenViewHolder2> 
             case 3:
                 viewHolder.image.setImageResource(R.drawable.othh);
                 viewHolder.preview_text.setText("Online Treasure Hunt");
+                break;
+            case 4:
+                viewHolder.image.setImageResource(R.drawable.othh);
+                viewHolder.preview_text.setText("Digital Fortress");
                 break;
 
         }

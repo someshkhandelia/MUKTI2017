@@ -29,13 +29,13 @@ public class GridFragment2 extends Fragment implements KittenClickListener2 {
         super.onViewCreated(view, savedInstanceState);
 
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recyclerview);
-        recyclerView.setAdapter(new KittenGridAdapter2(4, this));
+        recyclerView.setAdapter(new KittenGridAdapter2(5, this));
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1));
     }
 
     @Override
     public void onKittenClicked(KittenViewHolder2 holder, int position) {
-        int kittenNumber = (position % 4) + 1;
+        int kittenNumber = (position % 5) + 1;
 
         DetailsFragment2 kittenDetails = DetailsFragment2.newInstance(kittenNumber);
 

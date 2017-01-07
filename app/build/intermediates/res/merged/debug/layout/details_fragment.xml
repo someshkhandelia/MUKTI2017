@@ -30,7 +30,6 @@
         android:id='@+id/image'
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="@dimen/details_top_spacing"
         android:scaleType="centerCrop"
         android:transitionName="kittenImage"
         tools:ignore="ContentDescription,UnusedAttribute" />
@@ -45,7 +44,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text_body"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
 
     <Button
         android:layout_width="match_parent"

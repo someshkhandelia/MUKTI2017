@@ -1,60 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal">
+    android:layout_height="wrap_content">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/heading_offline_events"
-        android:background="#000000"
-        android:alpha="0.3">
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/heading_offline_events"
+            android:background="#000000"
+            android:alpha="0.3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Offline Events"
+                android:id="@+id/offline_events_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id='@+id/image'
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:transitionName="kittenImage"
+            tools:ignore="ContentDescription,UnusedAttribute"
+            />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Offline Events"
-            android:id="@+id/offline_events_text"
-            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:id="@+id/text_head"
+            android:background="@color/accent_material_light"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"/>
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/text_body"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:alpha="0.5"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Rules and Regulation"
+            android:textColor="#ffffff"
+            android:background="@color/accent_material_light"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:id="@+id/rules_button"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            />
+        <TextView
+            android:id="@+id/text_rules"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:alpha="0.5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@color/accent_material_light"
+            android:id="@+id/call_button"
+            android:layout_alignParentBottom="true"/>
 
     </LinearLayout>
 
-    <ImageView
-        android:id='@+id/image'
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="@dimen/details_top_spacing"
-        android:scaleType="centerCrop"
-        android:transitionName="kittenImage"
-        tools:ignore="ContentDescription,UnusedAttribute" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:id="@+id/text_head"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_body"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textColor="#ffffff"
-        android:textStyle="bold"
-        android:background="@color/accent_material_light"
-        android:id="@+id/call_button"
-        android:layout_alignParentBottom="true"/>
-
-</LinearLayout>
+</ScrollView>

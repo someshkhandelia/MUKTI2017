@@ -48,6 +48,7 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
         TextView text_head=(TextView) view.findViewById(R.id.text_head);
         TextView text_body=(TextView) view.findViewById(R.id.text_body);
         Button call_button=(Button) view.findViewById(R.id.call_button);
+        TextView text_rules=(TextView) view.findViewById(R.id.text_rules);
 
         Bundle args = getArguments();
         int kittenNumber = args.containsKey(ARG_KITTEN_NUMBER) ? args.getInt(ARG_KITTEN_NUMBER) : 1;
@@ -56,9 +57,12 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 1:
                 image.setImageResource(R.drawable.cc);
                 text_head.setText("Codecracker");
-                text_body.setText("Description: ");
+                text_body.setText("It is the flagship event where partcipation involves people from 50 countries across the world.This is an online coding competition organised by GNU/Linux Users' Group during MUKTI");
 
                 call_button.setText("Contact Neetesh");
+
+                text_rules.setText("There will be a set of coding questions and the participant solving the most number of questions will be the winner" +
+                        "Challenge is on Keep Coding!");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -75,9 +79,10 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 2:
                 image.setImageResource(R.drawable.fp);
                 text_head.setText("Freepl");
-                text_body.setText("Description: ");
+                text_body.setText("This is the time to prove yourself as a selecter. So bring out the superselecter in you and build the best team on the cricketing circuit will bring you the victory irrespective of foreign and domestic players");
 
                 call_button.setText("Contact Adarsh");
+                text_rules.setText("Select 11 players with a captain and form a team of a current match. The player with maximum points will be declared as the winner");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -93,9 +98,10 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 3:
                 image.setImageResource(R.drawable.fx);
                 text_head.setText("Freemex");
-                text_body.setText("Description: ");
+                text_body.setText("The name says it all free as in free of cost in FOSS. This is an unique type of online trading which allows you to buy and sell stocks");
 
                 call_button.setText("Contact Bishakh");
+                text_rules.setText("Player has to buy and sell stocks using the knowledge and status of current stocks.Player with maximum amount of points and stocks will be the winner");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -111,9 +117,15 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 4:
                 image.setImageResource(R.drawable.othh);
                 text_head.setText("Online Treasure Hunt");
-                text_body.setText("Description: ");
+                text_body.setText("The exhilaration is back! Gear up as we take you for an exciting quest for “treasure” during MUKTI.\n" +
+                        "\n" +
+                        "Come with us, and unravel the secret treasure hidden somewhere in the world of Free and Open Source Software (FOSS).");
 
                 call_button.setText("Contact Aman");
+                text_rules.setText("Connect the pictures, look for clues in the page source and remember,Google Is Your Friend!\n" +
+                        "\n" +
+                        "\n" +
+                        "The hunt is on!");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -130,9 +142,11 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 5:
                 image.setImageResource(R.drawable.othh);
                 text_head.setText("Digital Fortress");
-                text_body.setText("Description: ");
+                text_body.setText("");
 
                 call_button.setText("Contact Arka");
+
+                text_rules.setText("");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override

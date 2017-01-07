@@ -75,7 +75,7 @@ public class DetailsFragment3 extends android.support.v4.app.Fragment {
             case 2:
                 image.setImageResource(R.drawable.android);
                 text_head.setText("Android App Development");
-                text_body.setText("Description: ");
+                text_body.setText("One of the most interesting fields in the IT industry today is Android App Development.\n It is in great demand in the market,and an android can be found in almost every pair of hands.\n Creation always makes the creator happy, no matter how trivial or grand it be. And more so, if others can utilise the creation too. Imagine creating an Android app all by yourself, launching it, and being able to use it, not just you, but everyone around you! Wouldn’t it be amazing?? We the GNU Linux Users’ Group would help you learn to create an Android App, right from scratch. Come join us with fully charged laptops. \n\n\nVenue: D.M.Sen Auditorium \nTime: 5.45pm-8pm(Tuesdays)");
 
                 call_button.setText("Contact Somesh");
 
@@ -93,7 +93,7 @@ public class DetailsFragment3 extends android.support.v4.app.Fragment {
             case 3:
                 image.setImageResource(R.drawable.webdev);
                 text_head.setText("Web Development");
-                text_body.setText("Description: ");
+                text_body.setText("For the present generation, internet has become the second oxygen and surfing through various websites the new form of breathing!!\n Even you can make your own website! We, the GNU Linux Users’ Group would help you develop your own website, both front and back end, right from the basics. It would not only be exciting but would add a lot to your personal development (and CV too!).\n Come join us with fully charged laptops and no other prerequisites.\n\n\n Venue: D.M.Sen Auditorium  \nTime: 5.45pm-7.45pm(Thursdays)");
 
                 call_button.setText("Contact Bishakh");
 
@@ -111,7 +111,7 @@ public class DetailsFragment3 extends android.support.v4.app.Fragment {
             case 4:
                 image.setImageResource(R.drawable.hackme);
                 text_head.setText("Hack.Me");
-                text_body.setText("Description: ");
+                text_body.setText("A little bit of fuel can add a lot of flame to the fire. Similarly a little bit of innovation can add a lot of advancement to a technology.\n We, the GNU Linux Users’ Group are organising hackathon sessions to encourage budding minds to create something new. You’ll get to modify on a piece of code and craft your ideas into a working prototype in a single session.\n Come join us with fully charged laptops and a heart full of enthusiasm!\n\n\nVenue: D.M.Sen Auditorium \nTime: 2pm-6pm(Saturdays)");
 
                 call_button.setText("Contact Adarsh");
 

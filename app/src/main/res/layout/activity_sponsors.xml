@@ -4,13 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.somesh1995.mukti2017_2.Sponsors"
-    android:background="@drawable/wizard5">
+    android:background="@drawable/mappbg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#000000"
-        android:alpha="0.4">
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -19,9 +18,10 @@
             android:text="Sponsors"
             android:id="@+id/sponsors_title"
             android:layout_gravity="center"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:gravity="center"/>
+            android:textColor="#D3D3D3"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"/>
 
     </LinearLayout>
 

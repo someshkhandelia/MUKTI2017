@@ -15,8 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:id="@+id/heading_offline_events"
-            android:background="#000000"
-            android:alpha="0.3">
+            >
 
             <TextView
                 android:layout_width="match_parent"
@@ -25,9 +24,10 @@
                 android:text="Offline Events"
                 android:id="@+id/offline_events_text"
                 android:layout_gravity="center"
+                android:textColor="#D3D3D3"
                 android:gravity="center"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"/>
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"/>
 
         </LinearLayout>
 
@@ -43,24 +43,20 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textStyle="bold"
             android:id="@+id/text_head"
-            android:background="@color/accent_material_light"
+            android:background="#373839"
             android:gravity="center"
             android:textAllCaps="true"
             android:textSize="15dp"
-            android:textColor="#ffffff"/>
+            android:textColor="#D3D3D3"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:id="@+id/text_body"
-            android:textStyle="bold"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
-            android:background="#000000"
-            android:textColor="#ffffff"
-            android:alpha="0.5"
+            android:textColor="#D3D3D3"
             android:textAlignment="center"
             />
 
@@ -68,8 +64,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Rules and Regulation"
-            android:textColor="#ffffff"
-            android:background="@color/accent_material_light"
+            android:textColor="#D3D3D3"
+            android:background="#373839"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="15dp"
@@ -84,18 +80,15 @@
             android:textAlignment="center"
             android:fontFamily="sans-serif"
             android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="#000000"
-            android:textColor="#ffffff"
-            android:alpha="0.5"/>
+            android:textColor="#D3D3D3"
+            />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_centerHorizontal="true"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:background="@color/accent_material_light"
+            android:textColor="#D3D3D3"
+            android:background="#373839"
             android:id="@+id/call_button"
             android:layout_alignParentBottom="true"/>
 

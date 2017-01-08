@@ -6,33 +6,37 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
 
-        <LinearLayout
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:background="#000000"
-                android:alpha="0.4">
+                android:layout_height="60dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Offline Events"
+                    android:text="&lt;&lt;&lt;  Offline Events >>>"
                     android:id="@+id/offline_title"
                     android:layout_gravity="center"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold"
-                    android:gravity="center" />
+                    android:textColor="#D3D3D3"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textAllCaps="true"/>
 
             </LinearLayout>
 
 
-            <ImageButton
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_centerHorizontal="true"
@@ -40,39 +44,35 @@
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:src="@drawable/off3"
                 android:id="@+id/offline_image_button"
-                android:layout_marginTop="20dp"
-                android:scaleType="centerCrop"/>
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop" />
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_marginTop="20dp">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#000000"
-                android:alpha="0.4">
+                android:layout_height="wrap_content">
 
                 <TextView style="?android:textAppearanceSmall"
                     android:textColor="#80ffffff"
-                    android:textStyle="bold"
                     android:text="During the three day meet, at Mukti, we organise exciting offline events which brings together people with the brightest minds in and around the campus. Not only does it cater to the technical (CSE and IT) students, but is open for non technical students as well. The lively events are fun filled as well as enriching. Whether you are a naive user or a developer, our entire team assures you, you will not return home without being benefitted."
                     android:lineSpacingMultiplier="1.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="17sp"/>
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-light"/>
 
 
             </LinearLayout>
 
-            </ScrollView>
+
 
 
 
 
         </LinearLayout>
+    </ScrollView>
 
 
 

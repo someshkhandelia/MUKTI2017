@@ -7,9 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/heading_workshops"
-        android:background="#000000"
-        android:alpha="0.3">
+        android:id="@+id/heading_workshops">
 
         <TextView
             android:layout_width="match_parent"
@@ -18,9 +16,10 @@
             android:text="Workshops"
             android:id="@+id/workshops_text"
             android:layout_gravity="center"
+            android:textColor="#D3D3D3"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"/>
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"/>
 
     </LinearLayout>
 

@@ -10,11 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 
 public class Home3 extends Fragment {
 
-    ImageButton workshops_image_button;
+    ImageView workshops_image_button;
 
     public Home3() {
         // Required empty public constructor
@@ -27,7 +28,7 @@ public class Home3 extends Fragment {
         View rootView = inflater.inflate(
                 R.layout.fragment_home3, container, false);//16.75,38.25,26.5
 
-       workshops_image_button=(ImageButton)rootView.findViewById(R.id.workshops_image_button);
+       workshops_image_button=(ImageView) rootView.findViewById(R.id.workshops_image_button);
         workshops_image_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

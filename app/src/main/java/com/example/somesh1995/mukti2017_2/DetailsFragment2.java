@@ -142,11 +142,11 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
             case 5:
                 image.setImageResource(R.drawable.othh);
                 text_head.setText("Digital Fortress");
-                text_body.setText("");
+                text_body.setText("Welcome to the fortress where each floor has different clues for you which lead you to the staircase for the next one.\n\nExplore the Sherlock in you and analyse the breathtaking world through maps to find your clues ");
 
                 call_button.setText("Contact Arka");
 
-                text_rules.setText("");
+                text_rules.setText("1. Each round has two kinds of questions: Hints Question and Round Question\n2. Solving a hints question gives you a latitude and longitude position\n3. Solving all the hints questions will give you a pattern on the map\n4.Zoom in and get details of that location, decode it to solve the Round question,and proceed to the next round.");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
                     @Override

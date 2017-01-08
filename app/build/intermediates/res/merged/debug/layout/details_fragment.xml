@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,8 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/heading_contacts"
-        android:background="#000000"
-        android:alpha="0.3">
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -20,9 +25,10 @@
             android:text="Contacts"
             android:id="@+id/contacts_text"
             android:layout_gravity="center"
+            android:textColor="#D3D3D3"
             android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"/>
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"/>
 
     </LinearLayout>
 
@@ -35,28 +41,35 @@
         tools:ignore="ContentDescription,UnusedAttribute" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:id="@+id/text_head"/>
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text_head"
+        android:background="#373839"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:textColor="#D3D3D3"/>
+
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
         android:id="@+id/text_body"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"/>
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#D3D3D3"
+        android:textAlignment="center"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:textColor="#ffffff"
-        android:textStyle="bold"
-        android:background="@color/accent_material_light"
+        android:textColor="#D3D3D3"
+        android:background="#373839"
         android:id="@+id/call_button"
         android:layout_alignParentBottom="true"/>
 
 
 </LinearLayout>
+    </ScrollView>

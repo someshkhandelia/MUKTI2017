@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MUKTI2017_2</string>
+    <string name="app_name">MUKTI2017</string>
     <string name="title_activity_screen_slide_pager">ScreenSlidePagerActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

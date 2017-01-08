@@ -35,20 +35,17 @@ public class KittenGridAdapter3 extends RecyclerView.Adapter<KittenViewHolder3> 
 
     @Override
     public void onBindViewHolder(final KittenViewHolder3 viewHolder, final int position) {
-        switch (position % 4) {
+        switch (position % 3) {
+
             case 0:
-                viewHolder.image.setImageResource(R.drawable.ethic);
-                viewHolder.preview_text.setText("Ethical Hacking");
-                break;
-            case 1:
                 viewHolder.image.setImageResource(R.drawable.android);
                 viewHolder.preview_text.setText("Android App Dev.");
                 break;
-            case 2:
+            case 1:
                 viewHolder.image.setImageResource(R.drawable.webdev);
                 viewHolder.preview_text.setText("Web Development");
                 break;
-            case 3:
+            case 2:
                 viewHolder.image.setImageResource(R.drawable.hackme);
                 viewHolder.preview_text.setText("Hack.Me");
                 break;

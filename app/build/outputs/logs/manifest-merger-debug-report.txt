@@ -86,7 +86,7 @@ MERGED from [com.android.support:support-compat:24.2.0] C:\my files\AndroidStudi
 	android:allowBackup
 		ADDED from C:\my files\AndroidStudioProjects\MUKTI2017_2\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\my files\AndroidStudioProjects\MUKTI2017_2\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\my files\AndroidStudioProjects\MUKTI2017_2\app\src\main\AndroidManifest.xml:7:9-48
 	android:theme
 		ADDED from C:\my files\AndroidStudioProjects\MUKTI2017_2\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.somesh1995.mukti2017_2.MainActivity

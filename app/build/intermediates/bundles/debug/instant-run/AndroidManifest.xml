@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="24" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
@@ -32,6 +34,9 @@
         <activity android:name="com.example.somesh1995.mukti2017_2.Offline_events" />
         <activity android:name="com.example.somesh1995.mukti2017_2.Hackathon" />
         <activity android:name="com.example.somesh1995.mukti2017_2.Sponsors" />
+        <activity android:name="com.example.somesh1995.mukti2017_2.Updates" />
+
+        <service android:name="com.example.somesh1995.mukti2017_2.Notify" />
     </application>
 
 </manifest>

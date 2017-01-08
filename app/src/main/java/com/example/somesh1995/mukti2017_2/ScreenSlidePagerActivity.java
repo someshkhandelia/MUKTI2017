@@ -141,7 +141,11 @@ public class ScreenSlidePagerActivity extends FragmentActivity
             Intent intent= new Intent(this,Sponsors.class);
             startActivity(intent);
 
+        } else if(id==R.id.update_ac){
+            Intent intent=new Intent(this,Updates.class);
+            startActivity(intent);
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

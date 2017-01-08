@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.somesh1995.mukti2017_2">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -25,7 +26,8 @@
         <activity android:name=".Offline_events" />
         <activity android:name=".Hackathon" />
         <activity android:name=".Sponsors" />
-
+        <activity android:name=".Updates" />
+       <service android:name=".Notify"/>
     </application>
 
 

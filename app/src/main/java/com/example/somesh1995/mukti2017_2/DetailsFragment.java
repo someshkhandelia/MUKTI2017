@@ -57,7 +57,7 @@ public class DetailsFragment extends android.support.v4.app.Fragment {
             case 1:
                 image.setImageResource(R.drawable.surya);
                 text_head.setText("President");
-                text_body.setText("Surya Kant Singh\nPh no.: +91 9614826204 \nEmail id: imsurya545@gmail.com ");
+                text_body.setText("Surya Kant Singh\nPh no.: +91 9614826204 \nEmail id: surya@nitdgplug.org ");
                 call_button.setText("Contact Surya");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +75,7 @@ public class DetailsFragment extends android.support.v4.app.Fragment {
             case 2:
                 image.setImageResource(R.drawable.drishti);
                 text_head.setText("Treasurer");
-                text_body.setText("Drishti Agarwal\nPh no.: +91 8820508067 \nEmail id: say2drishti@gmail.com ");
+                text_body.setText("Drishti Agarwal\nPh no.: +91 8820508067 \nEmail id: drishti@nitdgplug.org ");
                 call_button.setText("Contact Drishti");
 
                 call_button.setOnClickListener(new View.OnClickListener() {
@@ -92,7 +92,7 @@ public class DetailsFragment extends android.support.v4.app.Fragment {
             case 3:
                 image.setImageResource(R.drawable.arpit);
                 text_head.setText("Convenor");
-                text_body.setText("Arpit Singh\nPh no.: +91 9832821697 \nEmail id: arpitsinghnitd@gmail.com ");
+                text_body.setText("Arpit Singh\nPh no.: +91 9832821697 \nEmail id: arpit@nitdgplug.org ");
 
                 call_button.setText("Contact Arpit");
 
@@ -110,7 +110,7 @@ public class DetailsFragment extends android.support.v4.app.Fragment {
             case 4:
                 image.setImageResource(R.drawable.neetesh);
                 text_head.setText("General Secretary");
-                text_body.setText("Neetesh Kumar\nPh no.: +91 8670864497 \nEmail id: kumarneetesh24@gmail.com ");
+                text_body.setText("Neetesh Kumar\nPh no.: +91 8670864497 \nEmail id: neetesh@nitdgplug.org ");
 
                 call_button.setText("Contact Neetesh");
 

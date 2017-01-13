@@ -4,20 +4,24 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bts.jpg",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\bts.jpg"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bts.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\bts.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\larc.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\larc.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_icon.png",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\update_icon.png"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -46,10 +50,6 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perplex.jpeg",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\perplex.jpeg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\workshop3.jpg",
@@ -100,6 +100,10 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\surya.jpg"
     },
     {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hackathon_activity.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\hackathon_activity.jpg"
+    },
+    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\workshop_icon.png",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\workshop_icon.png"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conn.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\conn.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\df.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\df.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contacts_icon.png",
@@ -168,12 +176,12 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\hack3.jpg"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wizard5.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\wizard5.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cc.jpg",
@@ -190,6 +198,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inter.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\inter.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -246,6 +258,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\android.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\android.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perplex.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\perplex.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",

@@ -24,7 +24,7 @@ public class DetailsFragment4 extends android.support.v4.app.Fragment {
      * Create a new DetailsFragment
      * @param kittenNumber The number (between 1 and 6) of the kitten to display
      */
-    public static DetailsFragment4 newInstance(@IntRange(from = 1, to = 5) int kittenNumber) {
+    public static DetailsFragment4 newInstance(@IntRange(from = 1, to = 6) int kittenNumber) {
         Bundle args = new Bundle();
         args.putInt(ARG_KITTEN_NUMBER, kittenNumber);
 
@@ -118,7 +118,7 @@ public class DetailsFragment4 extends android.support.v4.app.Fragment {
                 break;
             case 4:
                 image.setImageResource(R.drawable.conn);
-                text_head.setText("Connectify 2048");
+                text_head.setText("Collude & Conclude");
                 text_body.setText("Love solving puzzles? \n\nCome and play the game of connecting the several pieces and forming the big picture which leads you to the answer!");
 
                 call_button.setText("Contact Ananya");
@@ -151,6 +151,23 @@ public class DetailsFragment4 extends android.support.v4.app.Fragment {
                         Intent intentcall = new Intent();
                         intentcall.setAction(Intent.ACTION_DIAL);
                         String phonenumber="+919800784681";
+                        intentcall.setData(Uri.parse("tel:" + phonenumber)); // set the Uri
+                        startActivity(intentcall);
+                    }
+                });
+                break;
+            case 6:
+                image.setImageResource(R.drawable.larc);
+                text_head.setText("Link-in Arc");
+                text_body.setText("Bored much? Indulge yourself in the cryptic labyrinth of geometry, code and logic with Link-In Arc! Make your way out of the Arcade and win it all right before MUKTI.");
+                call_button.setText("Contact Aman");
+                text_rules.setText("Explore the world of logic, code and geometry, with your decrypting skills.");
+                call_button.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intentcall = new Intent();
+                        intentcall.setAction(Intent.ACTION_DIAL);
+                        String phonenumber="+917063698944";
                         intentcall.setData(Uri.parse("tel:" + phonenumber)); // set the Uri
                         startActivity(intentcall);
                     }

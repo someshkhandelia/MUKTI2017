@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.somesh1995.mukti2017_2.Sponsors"
-    android:background="@drawable/mappbg">
-
+    android:layout_width="match_parent"
+    >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
+        tools:context="com.example.somesh1995.mukti2017_2.Hackathon"
+        android:background="@drawable/mappbg"
+        android:orientation="vertical"
         >
 
-        <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/sponsors_title_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sponsors"
+                android:id="@+id/sponsors_title"
+                android:layout_gravity="center"
+                android:textColor="#D3D3D3"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Sponsors"
-            android:id="@+id/sponsors_title"
-            android:layout_gravity="center"
-            android:textColor="#D3D3D3"
-            android:gravity="center"
-            android:fontFamily="sans-serif-light"
-            android:textAllCaps="true"/>
+            android:src="@drawable/sponsors_activity"
+            android:layout_below="@+id/sponsors_title_layout"
+            android:id="@+id/sponsors_activity_image"/>
+
 
     </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>

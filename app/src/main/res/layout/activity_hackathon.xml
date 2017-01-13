@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.somesh1995.mukti2017_2.Hackathon"
-    android:background="@drawable/mappbg"
+    android:layout_width="match_parent"
     >
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="wrap_content"
+        tools:context="com.example.somesh1995.mukti2017_2.Hackathon"
+        android:background="@drawable/mappbg"
+        android:orientation="vertical"
+        >
 
-        <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/hackathon_title_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Hackathon"
+                android:id="@+id/hackathon_title"
+                android:layout_gravity="center"
+                android:textColor="#D3D3D3"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Hackathon"
-            android:id="@+id/hackathon_title_title"
-            android:layout_gravity="center"
+            android:src="@drawable/hackathon_activity"
+            android:layout_below="@+id/hackathon_title_layout"
+            android:id="@+id/hackathon_activity_image"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:textColor="#D3D3D3"
-            android:gravity="center"
-            android:fontFamily="sans-serif-light"
-            android:textAllCaps="true"/>
+            android:background="#373839"
+            android:id="@+id/call_button"
+            android:layout_below="@+id/hackathon_activity_image"
+            android:layout_marginTop="30dp"
+            />
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textColor="#D3D3D3"
-        android:background="#373839"
-        android:id="@+id/call_button"
-        android:layout_alignParentBottom="true"/>
-
-</RelativeLayout>
+</ScrollView>

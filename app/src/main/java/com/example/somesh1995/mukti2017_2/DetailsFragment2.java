@@ -22,9 +22,9 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
 
     /**
      * Create a new DetailsFragment
-     * @param kittenNumber The number (between 1 and 4) of the kitten to display
+     * @param kittenNumber The number (between 1 and 6) of the kitten to display
      */
-    public static DetailsFragment2 newInstance(@IntRange(from = 1, to = 5) int kittenNumber) {
+    public static DetailsFragment2 newInstance(@IntRange(from = 1, to = 6) int kittenNumber) {
         Bundle args = new Bundle();
         args.putInt(ARG_KITTEN_NUMBER, kittenNumber);
 
@@ -140,7 +140,7 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
                 break;
 
             case 5:
-                image.setImageResource(R.drawable.othh);
+                image.setImageResource(R.drawable.df);
                 text_head.setText("Digital Fortress");
                 text_body.setText("Welcome to the fortress where each floor has different clues for you which lead you to the staircase for the next one.\n\nExplore the Sherlock in you and analyse the breathtaking world through maps to find your clues ");
 
@@ -154,6 +154,26 @@ public class DetailsFragment2 extends android.support.v4.app.Fragment {
                         Intent intentcall = new Intent();
                         intentcall.setAction(Intent.ACTION_DIAL);
                         String phonenumber="+918906700509";
+                        intentcall.setData(Uri.parse("tel:" + phonenumber)); // set the Uri
+                        startActivity(intentcall);
+                    }
+                });
+                break;
+            case 6:
+                image.setImageResource(R.drawable.inter);
+                text_head.setText("Interficio");
+                text_body.setText("This MUKTI you will find murder meets mayhem and the intrigue begins!\nDo murders excite you? Do clues trigger your brain to a hyperactive mode?\n\nIf yes,you are left with the task of deciphering between the facts and falsehoods that plague this paradise in order to make a lyncher pay for his crime.");
+
+                call_button.setText("Contact Ananya");
+
+                text_rules.setText(" All answers are to be typed in lowercase characters. For phrases, use underscore in between the words (i.e., instead of spaces). For more than one word, (suppose you have to give 5 names), use '/' in between each word, and all words should be arranged lexicographically.");
+
+                call_button.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intentcall = new Intent();
+                        intentcall.setAction(Intent.ACTION_DIAL);
+                        String phonenumber="+917063495554";
                         intentcall.setData(Uri.parse("tel:" + phonenumber)); // set the Uri
                         startActivity(intentcall);
                     }

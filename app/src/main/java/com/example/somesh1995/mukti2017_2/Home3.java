@@ -32,7 +32,7 @@ public class Home3 extends Fragment {
         workshops_image_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),Workshops.class);
+                Intent intent = new Intent(getActivity(),Keynote.class);
                 startActivity(intent);
             }
         });

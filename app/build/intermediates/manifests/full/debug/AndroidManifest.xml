@@ -36,6 +36,8 @@
         <activity android:name="com.example.somesh1995.mukti2017_2.Updates" />
 
         <service android:name="com.example.somesh1995.mukti2017_2.Notify" />
+
+        <activity android:name="com.example.somesh1995.mukti2017_2.Keynote" />
     </application>
 
 </manifest>

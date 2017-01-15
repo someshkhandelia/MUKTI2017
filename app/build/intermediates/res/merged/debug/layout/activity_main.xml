@@ -4,7 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.somesh1995.mukti2017_2.MainActivity"
-    android:background="@drawable/splashscreen">
+    android:background="@drawable/mappbg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mukti_main_poster"
+        android:alpha="0.8"
+        />
 
 
 

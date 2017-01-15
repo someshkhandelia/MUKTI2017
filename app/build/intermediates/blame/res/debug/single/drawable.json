@@ -100,6 +100,10 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\surya.jpg"
     },
     {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keynote_speech.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\keynote_speech.jpg"
+    },
+    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hackathon_activity.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\hackathon_activity.jpg"
     },
@@ -186,6 +190,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cc.jpg",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\cc.jpg"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mukti_main_poster.jpg",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\drawable\\mukti_main_poster.jpg"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",

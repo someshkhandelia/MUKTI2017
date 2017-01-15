@@ -122,7 +122,7 @@ package com.example.somesh1995.mukti2017_2;
 
                     try {
                         // Create a URL for the desired page
-                        URL updateURL = new URL("http://172.16.45.155:8000/notif");
+                        URL updateURL = new URL("http://notification.mkti.in");
 
                         // Read all the text returned by the server
                         BufferedReader in = new BufferedReader(new InputStreamReader(updateURL.openStream()));
@@ -170,7 +170,7 @@ package com.example.somesh1995.mukti2017_2;
                         // prefs= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                         // editor=prefs.edit();
                         // update=prefs.getString("cu", "Singh");
-                        Toast.makeText(getApplicationContext(), "Not Working", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getApplicationContext(), "Not Working", Toast.LENGTH_SHORT).show();
 
                         // s1=prefs.getString("current",null);
 
@@ -221,8 +221,8 @@ package com.example.somesh1995.mukti2017_2;
                             Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
 
-                            Notification noti = new NotificationCompat.Builder(getApplicationContext()).setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
-                                    .setSmallIcon(R.mipmap.ic_launcher)
+                            Notification noti = new NotificationCompat.Builder(getApplicationContext()).setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.mukti_logo_black))
+                                    .setSmallIcon(R.mipmap.mukti_logo_black)
                                     .setTicker("New Notification ...")
                                     .setWhen(System.currentTimeMillis())
                                     .setContentTitle("Mukti 2017")

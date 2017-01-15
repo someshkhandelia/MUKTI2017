@@ -8,16 +8,16 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item3.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\grid_item3.xml"
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item3.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\grid_item3.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -112,12 +112,12 @@
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\content_screen_slide_pager.xml"
     },
     {
-        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\details_fragment3.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\details_fragment3.xml"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -290,6 +290,10 @@
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_keynote.xml",
+        "source": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\src\\main\\res\\layout\\activity_keynote.xml"
     },
     {
         "merged": "C:\\my files\\AndroidStudioProjects\\MUKTI2017_2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

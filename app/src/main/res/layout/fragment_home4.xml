@@ -58,9 +58,7 @@
 
                 <TextView style="?android:textAppearanceSmall"
                     android:textColor="#80ffffff"
-                    android:text="To enrich your technical skills and test your power of logic and problem solving, Mukti  2017 brings  you, “ Hackathon” ,an eight hour long event which will consist of tasks, that you need to solve within the  stipulated time in groups of maximum three people . You can use any technology or framework to complete the given tasks.
- Internet connection for this event will be provided by GLUG, hence all you need to bring for this event is a fully charged laptop and your passion to conquer challenges. Refreshments will be provided by the club."
-                    android:lineSpacingMultiplier="1.2"
+                    android:text="Come this mukti let us build together something from scratch. Like a Phoenix rising from it's ashes, let your tenacity and hard work of a day bring the codes into life. Our relentless pursuit will be fruitful when your codes weave magic all in a day's work."  android:lineSpacingMultiplier="1.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"

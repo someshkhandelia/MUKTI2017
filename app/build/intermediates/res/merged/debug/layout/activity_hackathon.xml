@@ -38,6 +38,20 @@
             android:layout_below="@+id/hackathon_title_layout"
             android:id="@+id/hackathon_activity_image"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hackathon_body"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#D3D3D3"
+            android:textAlignment="center"
+            android:text="To enrich your technical skills and test your power of logic and problem solving, Mukti  2017 brings  you, “ Hackathon” ,an eight hour long event which will consist of tasks, that you need to solve within the  stipulated time in groups of maximum three people . You can use any technology or framework to complete the given tasks.
+ Internet connection for this event will be provided by GLUG, hence all you need to bring for this event is a fully charged laptop and your passion to conquer challenges. Refreshments will be provided by the club."
+            android:layout_marginTop="20dp"
+            />
+
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,8 +59,8 @@
             android:textColor="#D3D3D3"
             android:background="#373839"
             android:id="@+id/call_button"
-            android:layout_below="@+id/hackathon_activity_image"
             android:layout_marginTop="30dp"
+            android:layout_gravity="bottom"
             />
 
     </LinearLayout>

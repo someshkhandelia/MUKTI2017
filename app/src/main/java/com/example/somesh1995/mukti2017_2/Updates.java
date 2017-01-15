@@ -78,7 +78,7 @@ public class Updates extends AppCompatActivity  {
 
             try {
                 // Create a URL for the desired page
-                URL updateURL = new URL("http://172.16.45.155:8000/notif");
+                URL updateURL = new URL("http://notification.mkti.in");
 
                 // Read all the text returned by the server
                 BufferedReader in = new BufferedReader(new InputStreamReader(updateURL.openStream()));

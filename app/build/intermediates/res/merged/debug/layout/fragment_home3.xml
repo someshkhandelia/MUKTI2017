@@ -25,7 +25,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="&lt;&lt;&lt;   Workshops >>> "
+                    android:text="&lt;&lt;&lt;   Keynote >>> "
                     android:id="@+id/workshops_title"
                     android:layout_gravity="center"
                     android:textColor="#D3D3D3"
@@ -57,7 +57,7 @@
 
                 <TextView style="?android:textAppearanceSmall"
                     android:textColor="#80ffffff"
-                    android:text="Throughout the year, we organise workshops in the campus to promote the sense of Open Source software. We do not charge any fees for our workshops, as our main motto is to be free. As of now, we are organising Web Development workshops and Android App Development workshop on Thursday and Tuesday of every week.The Web Development workshops are focused on teaching both front end and back end web development, from scratch. The Android app development worshop,too, teaches from the very basics. Our team, highly cooperative and skilled, is present to help you out wherever you get stuck. With no other prerequisites, all you need is your fully charged laptop and an eager mind to learn."
+                    android:text="Every year we have an eminent personality delivering the keynote speech. This event helps the young minds to interact with some well known entrepreneurs and people in the tech industry.This is a great opportunity to know what is actually needed to make it big in the industry."
                     android:lineSpacingMultiplier="1.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

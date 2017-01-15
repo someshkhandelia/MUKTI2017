@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.somesh1995.mukti2017_2.Keynote"
+        android:background="@drawable/mappbg"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/keynote_title_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Keynote"
+                android:id="@+id/keynote_title"
+                android:layout_gravity="center"
+                android:textColor="#D3D3D3"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/keynote_speech"
+            android:layout_below="@+id/keynote_title_layout"
+            android:id="@+id/keynote_activity_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/keynote_body"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#D3D3D3"
+            android:textAlignment="center"
+            android:text="Mr.Debayan Banerjee\n\nTeam Lead -Infrastructure Engineer- Paytm\n\nCo-founder GazeMetrix\n
+
+GazeMetrix is a startup working in the field of computer vision. They are creating the world’s first visual analytics platform in the cloud\nwww.gazemetrix.com\n\n
+Team Lead -nivio.com\n\n
+
+Software Developer -ForwardBias Technologies\n\n
+
+Software Engineer-DeepRoot Linux\n\n
+
+fb url:\n
+https://www.facebook.com/debayanin\n\n
+
+
+linkedin url:"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://in.linkedin.com/in/debayan-banerjee-93608b57"
+            android:autoLink="web"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
